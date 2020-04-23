@@ -1,5 +1,5 @@
 {
-  "name": "webfonts-generator",
+  "name": "trax-webfonts-generator",
   "version": "0.4.0",
   "description": "Generator of webfonts from svg icons",
   "main": "src/index.js",
@@ -8,10 +8,6 @@
   },
   "scripts": {
     "test": "mocha tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sunflowerdeath/webfonts-generator.git"
   },
   "keywords": [
     "font",
@@ -43,5 +39,12 @@
     "mocha": "^3.1.2",
     "node-sass": "^3.4.2",
     "read-chunk": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+   },
+   "repository": {
+    "type": "git",
+    "url": "git@github.com:trax-retail/webfonts-generator"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "trax-webfonts-generator",
+  "name": "@trax-retail/webfonts-generator",
   "version": "0.4.2",
   "description": "Generator of webfonts from svg icons",
   "main": "src/index.js",
